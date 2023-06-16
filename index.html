@@ -24,6 +24,12 @@
 <body>
 
     <div id="root">
+        <div class="container my-4">
+            <label for="text">Inserisci qui il tuo saluto:</label>
+            <input class="mx-2" type="text" id="text" v-model="greet">
+
+            <h1 class="text-center m-4">{{ greet }}</h1>
+        </div>
     </div>
 
 </body>
